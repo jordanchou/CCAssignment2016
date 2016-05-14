@@ -73,8 +73,6 @@ void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 void network_up_to_application(Frame frame, int link)
 {
-printf("FRAME DESTINATION:%d-%s, NODE NUMBER:%d-%s\n", frame.dest, nodes[frame.dest],nodeinfo.nodenumber, nodes[nodeinfo.nodenumber]);
-
     if (frame.dest == nodeinfo.nodenumber)
     {
         printf("\t\t\t\t\tUP TO APPLICATION\n");
@@ -359,6 +357,11 @@ void forward_frame(Frame frame, int link)
     }
 }
 
+/**
+ * [ack_received description]
+ * @param frame [description]
+ * @param link  [description]
+ */
 void ack_received(Frame frame, int link)
 {
     Frame temp_frame;

@@ -3,7 +3,7 @@ compile			= "assignment.c"
 
 // LINK ATTRIBUTES -------------------------------------------------------------
 
-bandwidth           = 9999999999Kbps,
+bandwidth           = 99999Mbps,
 messagerate         = 1000ms,
 propagationdelay    = 250ms,
 probframecorrupt    = 5,
