@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define WINDOW_SIZE 5
 #define FRAME_SIZE(f) ((sizeof(Frame) - sizeof(f.data)) + f.length)
-
+#define WINDOW_SIZE 5
 
 typedef enum
 {
@@ -37,7 +36,6 @@ int between(int a, int b, int c);
 void forward_frame(Frame frame, int link);
 void ack_received(Frame frame, int link);
 
-
 static CnetTimerID timers[4][WINDOW_SIZE+1];
 static char* nodes[7] = {"Australia", "Fiji","New Zealand","Indonesia","Singapore","Malaysia","Brunei"};
 static int num_in_window[4] = {0,0,0,0};
@@ -58,7 +56,12 @@ static int routing_table[7][7] =
        {1,1,1,1,2,0,1},   //MALAYSIA
        {1,1,1,1,1,1,0}};  //BRUNEI
 
-
+/**
+ * [application_down_to_network description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame out_frame;
@@ -71,6 +74,11 @@ void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
     network_down_to_datalink(out_frame);
 }
 
+/**
+ * [network_up_to_application description]
+ * @param frame [description]
+ * @param link  [description]
+ */
 void network_up_to_application(Frame frame, int link)
 {
     if (frame.dest == nodeinfo.nodenumber)
@@ -86,6 +94,10 @@ void network_up_to_application(Frame frame, int link)
     }
 }
 
+/**
+ * [network_down_to_datalink description]
+ * @param frame [description]
+ */
 void network_down_to_datalink(Frame frame)
 {
     int link;
@@ -104,6 +116,12 @@ void network_down_to_datalink(Frame frame)
     }
 }
 
+/**
+ * [datalink_up_to_network description]
+ * @param frame  [description]
+ * @param link   [description]
+ * @param length [description]
+ */
 void datalink_up_to_network(Frame frame, int link, int length)
 {
     int checksum;
@@ -137,12 +155,21 @@ void datalink_up_to_network(Frame frame, int link, int length)
             transmit_ack(link, frame.sequence);
         }
     }
-    else
+    else if (frame.kind == ACK)
     {
         ack_received(frame, link);//ack_received
     }
+    else
+    {
+        printf("wtf\n");
+    }
 }
 
+/**
+ * [datalink_down_to_physical description]
+ * @param frame [description]
+ * @param link  [description]
+ */
 void datalink_down_to_physical(Frame frame, int link)
 {
     size_t frame_length;
@@ -154,11 +181,7 @@ void datalink_down_to_physical(Frame frame, int link)
     }
     else if (frame.kind == ACK)
     {
-        printf("\nACK TRANSMITTED\n",
-                "SOURCE: %s\n",
-                "THROUGH LINK: %d\n",
-                "SEQUENCE: %d\n",
-                nodes[nodeinfo.nodenumber], link, frame.sequence);
+        printf("\nACK TRANSMITTED\nSOURCE: %s\nTHROUGH LINK: %d\nTO: %s\nSEQUENCE: %d\n", nodes[nodeinfo.nodenumber], link, nodes[frame.dest], frame.sequence);
     }
     else
     {
@@ -172,6 +195,12 @@ void datalink_down_to_physical(Frame frame, int link)
     CHECK(CNET_write_physical(link, (char*)&frame, &frame_length));
 }
 
+/**
+ * [physical_up_to_datalink description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void physical_up_to_datalink(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame frame;
@@ -184,6 +213,12 @@ void physical_up_to_datalink(CnetEvent ev, CnetTimerID timer, CnetData data)
     datalink_up_to_network(frame, link, length);
 }
 
+/**
+ * [set_timer description]
+ * @param frame    [description]
+ * @param link     [description]
+ * @param sequence [description]
+ */
 void set_timer(Frame frame, int link, int sequence)
 {
     CnetTimerID timer;
@@ -211,6 +246,12 @@ void set_timer(Frame frame, int link, int sequence)
     timers[link-1][sequence] = timer;
 }
 
+/**
+ * [timeout_link_1 description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame frame;
@@ -232,6 +273,12 @@ void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 }
 
+/**
+ * [timeout_link_2 description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame frame;
@@ -253,6 +300,12 @@ void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 }
 
+/**
+ * [timeout_link_3 description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame frame;
@@ -274,6 +327,12 @@ void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 }
 
+/**
+ * [timeout_link_4 description]
+ * @param ev    [description]
+ * @param timer [description]
+ * @param data  [description]
+ */
 void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     Frame frame;
@@ -295,6 +354,11 @@ void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 }
 
+/**
+ * [transmit_ack description]
+ * @param link     [description]
+ * @param sequence [description]
+ */
 void transmit_ack(int link, int sequence)
 {
     Frame frame;
@@ -302,10 +366,16 @@ void transmit_ack(int link, int sequence)
     frame.kind = ACK;
     frame.length = 0;
     frame.sequence = sequence;
+    frame.dest = routing_table[nodeinfo.nodenumber][link];
 
     datalink_down_to_physical(frame, link);
 }
 
+/**
+ * [forward_frame description]
+ * @param frame [description]
+ * @param link  [description]
+ */
 void forward_frame(Frame frame, int link)
 {
     int out_link;
@@ -408,12 +478,16 @@ void ack_received(Frame frame, int link)
     // If none of the links connected to this node have full windows then enable
     // the application layer. If this application layer is enable then the buffer
     // for each link is also empty
-    if (num_in_window[0] < WINDOW_SIZE && num_in_window[1] < WINDOW_SIZE && num_in_window[2] < WINDOW_SIZE)
+    if (num_in_window[0] < WINDOW_SIZE && num_in_window[1] < WINDOW_SIZE && num_in_window[2] < WINDOW_SIZE && num_in_window[3] < WINDOW_SIZE)
     {
         CHECK(CNET_enable_application(ALLNODES));
     }
 }
 
+/**
+ * [inc description]
+ * @param num [description]
+ */
 void inc(int* num)
 {
     if (*num < WINDOW_SIZE)
@@ -426,6 +500,13 @@ void inc(int* num)
     }
 }
 
+/**
+ * [between description]
+ * @param  a [description]
+ * @param  b [description]
+ * @param  c [description]
+ * @return   [description]
+ */
 int between(int a, int b, int c)
 {
     return (((a<=b) && (b< c)) || ((c< a) && (a<=b)) || ((b< c) && (c< a)));
