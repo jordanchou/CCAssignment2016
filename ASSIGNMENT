@@ -1,11 +1,11 @@
-compile			= "assignment.c"
+compile			= "sliding_window.c"
 
 
 // LINK ATTRIBUTES -------------------------------------------------------------
 
-bandwidth           = 99999Mbps,
+bandwidth           = 256Kbps,
 messagerate         = 1000ms,
-propagationdelay    = 250ms,
+propagationdelay    = 100ms,
 probframecorrupt    = 5,
 probframeloss       = 5,
 mapcolour = "grey",

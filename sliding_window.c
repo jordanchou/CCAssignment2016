@@ -19,6 +19,7 @@ REQUIRES:-
 */
 void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
+   //Set handlers for the required events
    CHECK(CNET_set_handler(EV_APPLICATIONREADY, application_down_to_network, 0));
    CHECK(CNET_set_handler(EV_PHYSICALREADY, physical_up_to_datalink, 0));
    CHECK(CNET_set_handler(EV_TIMER1, &timeout_link_1, 0));
@@ -26,6 +27,7 @@ void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
    CHECK(CNET_set_handler(EV_TIMER3, &timeout_link_3, 0));
    CHECK(CNET_set_handler(EV_TIMER4, &timeout_link_4, 0));
 
+   //Initialise the timers for each link the node has
    for (int ii=0; ii<nodeinfo.nlinks; ii++)
    {
        for (int jj=0; jj<=WINDOW_SIZE; jj++)
@@ -34,8 +36,13 @@ void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
        }
    }
 
+   //Enable the node to be able to send messages
    CHECK(CNET_enable_application(ALLNODES));
 }
+
+/**
+ * APPLICATION -> NETWORK -> DATALINK -> PHYSICAL
+ */
 
 /**
  * [application_down_to_network description]
@@ -45,14 +52,16 @@ void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
  */
 void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
-    Frame out_frame;
+    Frame frame;
 
-    out_frame.length = sizeof(out_frame.data);
-    CHECK(CNET_read_application(&(out_frame.dest), (char *)(&out_frame.data), &(out_frame.length)));
-    out_frame.source = nodeinfo.nodenumber;
-    out_frame.kind = DATA;
+    frame.length = sizeof(frame.data);//Set the length of the frame
+
+    //Read the data/message from the application layer
+    CHECK(CNET_read_application(&(frame.dest), (char *)(&frame.data), &(frame.length)));
+    frame.source = nodeinfo.nodenumber;//Set the source of the frame to be current
+    frame.kind = DATA;//This is a data frame
     printf("\nDown from application");
-    network_down_to_datalink(out_frame);
+    network_down_to_datalink(frame);//Pass the frame onto the network
 }
 
 /**
@@ -62,16 +71,19 @@ void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 void network_down_to_datalink(Frame frame)
 {
     int link;
+
+    //Obtain the link to send from from the routing table
     link = routing_table[nodeinfo.nodenumber][frame.dest];
     frame.sequence = next_frame[link-1];
     window[link-1][frame.sequence] = frame;
 
     num_in_window[link-1] = num_in_window[link-1] + 1;
 
+    //Transmit the frame
     datalink_down_to_physical_transmit(frame, link);
-    increment(&next_frame[link-1]);
+    increment(&next_frame[link-1]);//Increment the number of frames
 
-    if (num_in_window[link-1] >= WINDOW_SIZE)
+    if (num_in_window[link-1] >= WINDOW_SIZE)//If window is full then stop
     {
         CHECK(CNET_disable_application(ALLNODES));
     }
@@ -85,6 +97,8 @@ void network_down_to_datalink(Frame frame)
 void datalink_down_to_physical_transmit(Frame frame, int link)
 {
     size_t frame_length;
+
+    //Print out the appropriate message depending on the frame type
     if (frame.kind == DATA)
     {
         printf("\nDATA TRANSMITTED\nSOURCE: %s\nDEST: %s\nTHROUGH LINK: %d\nSEQUENCE: %d\n",nodes[frame.source], nodes[frame.dest], link, frame.sequence);
@@ -97,13 +111,15 @@ void datalink_down_to_physical_transmit(Frame frame, int link)
     }
     else
     {
-        printf("\nwtf");
+        printf("\nwtf");//Shouldn't ever get to here
     }
 
+    //Set the checksum of the frame
     frame.checksum = 0;
     frame_length = FRAME_SIZE(frame);
     frame.checksum = CNET_ccitt((unsigned char*)&frame, frame_length);
 
+    //Present the physical layer with the message
     CHECK(CNET_write_physical(link, (char*)&frame, &frame_length));
 }
 
@@ -122,18 +138,18 @@ void datalink_down_to_physical_forward(Frame frame, int link)
     {
         printf("\t\t\t\t\tFORWARDING FRAME\n\t\t\t\t\tVIA LINK: %d\n", out_link);
 
-        // Transmit an acknowledgement for the received frame
+        //Transmit an acknowledgement for the received frame
         datalink_down_to_physical_ack(link, frame.sequence);
-        // incrementrement the bottom of the window sincremente the frame has been received
-        // correctly
+        //increment the bottom of the window since the frame has been received
+        //correctly
         increment(&frame_expected[link - 1]);
 
-        // Set the sequence number of the frame and add it to the window
+        //Set the sequence number of the frame and add it to the window
         frame.sequence = next_frame[out_link - 1];
         window[out_link - 1][next_frame[out_link - 1]] = frame;
         num_in_window[out_link - 1] += 1;
 
-        // Transmit the frame and incrementrement the top of the window
+        //Transmit the frame and incrementrement the top of the window
         datalink_down_to_physical_transmit(frame, out_link);
         increment(&next_frame[out_link - 1]);
     }
@@ -172,6 +188,7 @@ void datalink_down_to_physical_ack(int link, int sequence)
 {
     Frame frame;
 
+    //Make an ACK frame
     frame.kind = ACK;
     frame.length = 0;
     frame.sequence = sequence;
@@ -179,6 +196,11 @@ void datalink_down_to_physical_ack(int link, int sequence)
 
     datalink_down_to_physical_transmit(frame, link);
 }
+
+
+/**
+ * PHYSICAL -> DATALINK -> NETWORK -> APPLICATION
+ */
 
 /**
  * [physical_up_to_datalink description]
@@ -305,9 +327,11 @@ void datalink_up_to_network_ack(Frame frame, int link)
 }
 
 /**
- * [network_up_to_application description]
- * @param frame [description]
- * @param link  [description]
+ * Takes in a frame, if the frame is intended for the current node then it
+ * will write the message to the application layer. If the frame is not intended
+ * for the current node then it will forward the frame onto the right dest.
+ * @param frame The frame containing the message
+ * @param link  The link the frame is intended for
  */
 void network_up_to_application(Frame frame, int link)
 {
@@ -323,6 +347,10 @@ void network_up_to_application(Frame frame, int link)
         datalink_down_to_physical_forward(frame, link);
     }
 }
+
+/**
+ * TIMERS
+ */
 
 /**
  * [set_timer description]
@@ -358,7 +386,7 @@ void set_timer(Frame frame, int link, int sequence)
 }
 
 /**
- * [timeout_link_1 description]
+ * Handles timeouts on link 1 by retransmitting the frame
  * @param ev    [description]
  * @param timer [description]
  * @param data  [description]
@@ -376,7 +404,6 @@ void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
     printf("\nTIMEOUT\n"
            "SOURCE:   %s\n"
            "DEST:     %s\n"
-           "OUT LINK: %d\n"
            "SEQ NO:   %d\n",
            nodes[frame.source], nodes[frame.dest], link, sequence);
 
@@ -384,7 +411,7 @@ void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
- * [timeout_link_2 description]
+ * Handles timeouts on link 2 by retransmitting the frame
  * @param ev    [description]
  * @param timer [description]
  * @param data  [description]
@@ -402,7 +429,6 @@ void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
     printf("\nTIMEOUT\n"
            "SOURCE:   %s\n"
            "DEST:     %s\n"
-           "OUT LINK: %d\n"
            "SEQ NO:   %d\n",
            nodes[frame.source], nodes[frame.dest], link, sequence);
 
@@ -410,7 +436,7 @@ void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
- * [timeout_link_3 description]
+ * Handles timeouts on link 3 by retransmitting the frame
  * @param ev    [description]
  * @param timer [description]
  * @param data  [description]
@@ -428,7 +454,6 @@ void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
     printf("\nTIMEOUT\n"
            "SOURCE:   %s\n"
            "DEST:     %s\n"
-           "OUT LINK: %d\n"
            "SEQ NO:   %d\n",
            nodes[frame.source], nodes[frame.dest], link, sequence);
 
@@ -437,7 +462,7 @@ void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
- * [timeout_link_4 description]
+ * Handles timeouts on link 4 by retransmitting the frame
  * @param ev    [description]
  * @param timer [description]
  * @param data  [description]
@@ -455,7 +480,6 @@ void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data)
     printf("\nTIMEOUT\n"
            "SOURCE:   %s\n"
            "DEST:     %s\n"
-           "OUT LINK: %d\n"
            "SEQ NO:   %d\n",
            nodes[frame.source], nodes[frame.dest], link, sequence);
 
@@ -464,8 +488,9 @@ void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
- * [increment description]
- * @param num [description]
+ * Acts like a controller. Maintains the condition that the number stored in
+ * the pointer must be smaller than the window size
+ * @param num the number to increment
  */
 void increment(int* num)
 {
