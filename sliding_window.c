@@ -149,7 +149,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
         window[out_link - 1][next_frame[out_link - 1]] = frame;
         num_in_window[out_link - 1] += 1;
 
-        //Transmit the frame and incrementrement the top of the window
+        //Transmit the frame and increment the top of the window
         datalink_down_to_physical_transmit(frame, out_link);
         increment(&next_frame[out_link - 1]);
     }
@@ -162,7 +162,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
 
             // Transmit an acknowledgement for the received frame
             datalink_down_to_physical_ack(link, frame.sequence);
-            // incrementrement the bottom of the window sincremente the frame has been received
+            // increment the bottom of the window sincremente the frame has been received
             // correctly
             increment(&frame_expected[link - 1]);
 
@@ -235,7 +235,7 @@ void datalink_up_to_network(Frame frame, int link, int length)
 
     if (CNET_ccitt((unsigned char*)&frame, (int)length) != checksum)
     {
-        printf("\t\t\t\t\tFRAME RECEIVED\n\t\t\t\t\tBAD CHECKSUM - IGNORE\n");
+        printf("\t\t\t\t\tFRAME RECEIVED\n\t\t\t\t\tBAD CHECKSUM\n");
         return;
     }
 
@@ -254,9 +254,12 @@ void datalink_up_to_network(Frame frame, int link, int length)
         }
         else if (frame.sequence == (frame_expected[link-1] + WINDOW_SIZE) % (WINDOW_SIZE + 1))
         {
-            printf("\t\t\t\t\tFRAME ALREADY RECEIVED\n"
-                   "\t\t\t\t\tTRANSMIT DUMMY ACK\n");
+            printf("\t\t\t\t\tFRAME ALREADY RECEIVED: RE-TRANSMIT ACK\n");
             datalink_down_to_physical_ack(link, frame.sequence);
+        }
+        else
+        {
+            printf("\t\t\t\t\tWRONG SEQUENCE NUMBER, DROPPED.\n");
         }
     }
     else if (frame.kind == ACK)
@@ -285,25 +288,25 @@ void datalink_up_to_network_ack(Frame frame, int link)
            "\t\t\t\t\tSEQ NO:  %d\n",
            nodes[nodeinfo.nodenumber], link, frame.sequence);
 
-    // An acknowledgement acknowledges the frame with the same sequence number
-    // and all those sent before it that haven't been acknowledged.
+    //An acknowledgement acknowledges the frame with the same sequence number
+    //and all those sent before it that haven't been acknowledged.
     while (BETWEEN(ack_expected[link - 1], frame.sequence, next_frame[link - 1]))
     {
-        // Stop the timer and remove the acknowledged frame from the window
+        //Stop the timer and remove the acknowledged frame from the window
         CNET_stop_timer(timers[link - 1][ack_expected[link - 1]]);
-        increment(&ack_expected[link - 1]); // incrementrement the lower bound of the window
+        increment(&ack_expected[link - 1]); // increment the lower bound of the window
         num_in_window[link - 1] -= 1;
     }
 
-    // While there is space in the window and there are frames in the buffer to
-    // be sent send these frames
+    //While there is space in the window and there are frames in the buffer to
+    //be sent send these frames
     while (num_in_window[link - 1] < WINDOW_SIZE && num_in_buffer[link - 1] > 0)
     {
-        printf("\t\t\t\t\tSENDING FRAME FROM BUFFER\n");
+        printf("\t\t\t\t\tSENDING FROM BUFFER\n");
 
         // Remove the first frame from the buffer and update the buffer bounds
         temp_frame = buffer[link - 1][buffer_bounds[link - 1][0]];
-        increment(&buffer_bounds[link - 1][0]); // incrementrement the start index
+        increment(&buffer_bounds[link - 1][0]); // increment the start index
         num_in_buffer[link - 1] -= 1;
 
         // Set the sequence number of the frame and add it to the window

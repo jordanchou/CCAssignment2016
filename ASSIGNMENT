@@ -3,7 +3,7 @@ compile			= "sliding_window.c"
 
 // LINK ATTRIBUTES -------------------------------------------------------------
 
-bandwidth           = 256Kbps,
+bandwidth           = 99999999Mbps,
 messagerate         = 1000ms,
 propagationdelay    = 100ms,
 probframecorrupt    = 5,
@@ -55,14 +55,14 @@ host Indonesia
 
     host Malaysia
     {
-        winx=900, winy=500
+        winx=900, winy=1000
         outputfile = "Malyasia.log"
-        west west west of Australia
+        north west west west of Australia
     }
 
     host Brunei
     {
-        winx=1300, winy=500
+        winx=1500, winy=500
         outputfile = "Brunei.log"
         north of Indonesia
     }
