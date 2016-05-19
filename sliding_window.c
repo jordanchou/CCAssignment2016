@@ -11,6 +11,30 @@ REQUIRES:-
 
 #include "sliding_window.h"
 
+void draw_frame(CnetEvent ev, CnetTimerID timer, CnetData data)
+{
+    CnetDrawFrame *df  = (CnetDrawFrame *)data;
+    Frame         *f   = (Frame *)df->frame;
+
+    switch (f->kind) {
+    case ACK:
+        df->nfields    = 1;
+        df->colours[0] = (f->sequence == 0) ? "red" : "purple";
+        df->pixels[0]  = 10;
+        sprintf(df->text, "ack=%d", f->sequence);
+        break;
+
+    case DATA:
+        df->nfields    = 2;
+        df->colours[0] = (f->sequence == 0) ? "red" : "purple";
+        df->pixels[0]  = 10;
+        df->colours[1] = "green";
+        df->pixels[1]  = 30;
+        sprintf(df->text, "data=%d", f->sequence);
+        break;
+    }
+}
+
 /**
 *
 * @param ev    [description]
@@ -20,6 +44,7 @@ REQUIRES:-
 void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
    //Set handlers for the required events
+   CHECK(CNET_set_handler(EV_DRAWFRAME, &draw_frame, 0));
    CHECK(CNET_set_handler(EV_APPLICATIONREADY, application_down_to_network, 0));
    CHECK(CNET_set_handler(EV_PHYSICALREADY, physical_up_to_datalink, 0));
    CHECK(CNET_set_handler(EV_TIMER1, &timeout_link_1, 0));
@@ -287,6 +312,11 @@ void datalink_up_to_network_ack(Frame frame, int link)
            "\t\t\t\t\tIN LINK: %d\n"
            "\t\t\t\t\tSEQ NO:  %d\n",
            nodes[nodeinfo.nodenumber], link, frame.sequence);
+
+    if (frame.sequence != ack_expected[link-1])
+    {
+        printf("\n\t\t\t\t\tRESENDING FRAMES UP TO %d\n", ack_expected[link-1]);
+    }
 
     //An acknowledgement acknowledges the frame with the same sequence number
     //and all those sent before it that haven't been acknowledged.

@@ -1,0 +1,45 @@
+
+Down from application
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  0
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+THROUGH LINK: 1
+TO: Australia
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+THROUGH LINK: 1
+TO: Australia
+SEQUENCE: 1
+
+Down from application
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
