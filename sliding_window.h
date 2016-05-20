@@ -16,7 +16,7 @@ REQUIRES:-
 
 #define BETWEEN(a,b,c) (((a<=b) && (b< c)) || ((c< a) && (a<=b)) || ((b< c) && (c< a)))
 #define FRAME_SIZE(f) ((sizeof(Frame) - sizeof(f.data)) + f.length)
-#define WINDOW_SIZE 5
+#define WINDOW_SIZE 3
 
 typedef enum
 {
@@ -42,7 +42,7 @@ void datalink_up_to_network(Frame frame, int link, int length);
 void datalink_down_to_physical_transmit(Frame frame, int link);
 void physical_up_to_datalink(CnetEvent ev, CnetTimerID, CnetData data);
 void set_timer(Frame frame, int link, int sequence);
-void datalink_down_to_physical_ack(int link, int sequence);
+void datalink_down_to_physical_ack(Frame frame, int link, int sequence);
 void increment(int* num);
 void datalink_down_to_physical_forward(Frame frame, int link);
 void datalink_up_to_network_ack(Frame frame, int link);
@@ -50,6 +50,7 @@ void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data);
 void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data);
 void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data);
 void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data);
+void print_window(int link);
 
 static CnetTimerID timers[4][WINDOW_SIZE+1];
 static char* nodes[7] = {"Australia", "Fiji","New Zealand","Indonesia","Singapore","Malaysia","Brunei"};

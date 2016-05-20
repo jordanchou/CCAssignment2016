@@ -85,7 +85,6 @@ void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
     CHECK(CNET_read_application(&(frame.dest), (char *)(&frame.data), &(frame.length)));
     frame.source = nodeinfo.nodenumber;//Set the source of the frame to be current
     frame.kind = DATA;//This is a data frame
-    printf("\nDown from application");
     network_down_to_datalink(frame);//Pass the frame onto the network
 }
 
@@ -110,7 +109,15 @@ void network_down_to_datalink(Frame frame)
 
     if (num_in_window[link-1] >= WINDOW_SIZE)//If window is full then stop
     {
-        CHECK(CNET_disable_application(ALLNODES));
+        printf("\nDisabling application for link %d\n", link);
+
+        for (int ii=0; ii< 7; ii++)
+        {
+            if (routing_table[nodeinfo.nodenumber][ii] == link)
+            {
+                CHECK(CNET_disable_application(ii));
+            }
+        }
     }
 }
 
@@ -126,13 +133,13 @@ void datalink_down_to_physical_transmit(Frame frame, int link)
     //Print out the appropriate message depending on the frame type
     if (frame.kind == DATA)
     {
-        printf("\nDATA TRANSMITTED\nSOURCE: %s\nDEST: %s\nTHROUGH LINK: %d\nSEQUENCE: %d\n",nodes[frame.source], nodes[frame.dest], link, frame.sequence);
+        printf("\nDATA TRANSMITTED\nSOURCE: %s\nDEST: %s\nTHROUGH LINK: %d\nSEQUENCE: %d\nWINDOW SIZE: %d\n",nodes[frame.source], nodes[frame.dest], link, frame.sequence,num_in_window[link-1] );
 
         set_timer(frame, link, frame.sequence);
     }
     else if (frame.kind == ACK)
     {
-        printf("\nACK TRANSMITTED\nSOURCE: %s\nTHROUGH LINK: %d\nTO: %s\nSEQUENCE: %d\n", nodes[nodeinfo.nodenumber], link, nodes[frame.dest], frame.sequence);
+        printf("\nACK TRANSMITTED\nSOURCE: %s\nDEST: %s\nTHROUGH LINK: %d\nSEQUENCE: %d\n", nodes[nodeinfo.nodenumber],nodes[frame.dest], link,  frame.sequence);
     }
     else
     {
@@ -161,15 +168,15 @@ void datalink_down_to_physical_forward(Frame frame, int link)
 
     if (num_in_window[out_link-1] < WINDOW_SIZE)
     {
-        printf("\t\t\t\t\tFORWARDING FRAME\n\t\t\t\t\tVIA LINK: %d\n", out_link);
+        printf("\n\t\t\t\t\tFORWARDING FRAME\n\t\t\t\t\tVIA LINK: %d\n", out_link);
 
-        //Transmit an acknowledgement for the received frame
-        datalink_down_to_physical_ack(link, frame.sequence);
-        //increment the bottom of the window since the frame has been received
-        //correctly
+        //Transmit the acknowledgement for the received frame
+        datalink_down_to_physical_ack(frame, link, frame.sequence);
+
+        //increment the bottom of the window 
         increment(&frame_expected[link - 1]);
 
-        //Set the sequence number of the frame and add it to the window
+        //Set the new sequence number of the frame and add it to window
         frame.sequence = next_frame[out_link - 1];
         window[out_link - 1][next_frame[out_link - 1]] = frame;
         num_in_window[out_link - 1] += 1;
@@ -183,10 +190,10 @@ void datalink_down_to_physical_forward(Frame frame, int link)
         // If there is space in the buffer then add the frame to the buffer
         if (num_in_buffer[out_link - 1] < WINDOW_SIZE + 1)
         {
-            printf("\t\t\t\t\tADDED TO BUFFER\n");
+            printf("\t\t\t\t\tADDED TO STORE-FORWARD BUFFER\n");
 
             // Transmit an acknowledgement for the received frame
-            datalink_down_to_physical_ack(link, frame.sequence);
+            datalink_down_to_physical_ack(frame, link, frame.sequence);
             // increment the bottom of the window sincremente the frame has been received
             // correctly
             increment(&frame_expected[link - 1]);
@@ -200,8 +207,17 @@ void datalink_down_to_physical_forward(Frame frame, int link)
 
     if (num_in_window[out_link - 1] >= WINDOW_SIZE)
     {
-        CNET_disable_application(ALLNODES);
+
+        printf("\nDisabling application for link %d\n", out_link);
+        for (int ii=0; ii< 7; ii++)
+        {
+            if (routing_table[nodeinfo.nodenumber][ii] == out_link)
+            {
+                CHECK(CNET_disable_application(ii));
+            }
+        }
     }
+
 }
 
 /**
@@ -209,7 +225,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
  * @param link     [description]
  * @param sequence [description]
  */
-void datalink_down_to_physical_ack(int link, int sequence)
+void datalink_down_to_physical_ack(Frame in_frame, int link, int sequence)
 {
     Frame frame;
 
@@ -217,7 +233,7 @@ void datalink_down_to_physical_ack(int link, int sequence)
     frame.kind = ACK;
     frame.length = 0;
     frame.sequence = sequence;
-    frame.dest = routing_table[nodeinfo.nodenumber][link];
+    frame.dest = in_frame.dest;
 
     datalink_down_to_physical_transmit(frame, link);
 }
@@ -260,18 +276,12 @@ void datalink_up_to_network(Frame frame, int link, int length)
 
     if (CNET_ccitt((unsigned char*)&frame, (int)length) != checksum)
     {
-        printf("\t\t\t\t\tFRAME RECEIVED\n\t\t\t\t\tBAD CHECKSUM\n");
+        printf("\n\t\t\t\t\tFRAME RECEIVED\n\t\t\t\t\tBAD CHECKSUM\n");
         return;
     }
 
     if (frame.kind == DATA)
     {
-        printf("\n\t\t\t\t\tDATA RECEIVED\n"
-               "\t\t\t\t\tSOURCE:  %s\n"
-               "\t\t\t\t\tDEST:    %s\n"
-               "\t\t\t\t\tIN LINK: %d\n"
-               "\t\t\t\t\tSEQ NO:  %d\n",
-               nodes[frame.source], nodes[frame.dest], link, frame.sequence);
 
         if (frame.sequence == frame_expected[link-1])
         {
@@ -280,11 +290,17 @@ void datalink_up_to_network(Frame frame, int link, int length)
         else if (frame.sequence == (frame_expected[link-1] + WINDOW_SIZE) % (WINDOW_SIZE + 1))
         {
             printf("\t\t\t\t\tFRAME ALREADY RECEIVED: RE-TRANSMIT ACK\n");
-            datalink_down_to_physical_ack(link, frame.sequence);
+            datalink_down_to_physical_ack(frame, link, frame.sequence);
         }
         else
         {
-            printf("\t\t\t\t\tWRONG SEQUENCE NUMBER, DROPPED.\n");
+            printf("\n\t\t\t\t\tDATA RECEIVED\n"
+                           "\t\t\t\t\tSOURCE:  %s\n"
+                           "\t\t\t\t\tDEST:    %s\n"
+                           "\t\t\t\t\tIN LINK: %d\n"
+                           "\t\t\t\t\tSEQ NO:  %d\n",
+                           nodes[frame.source], nodes[frame.dest], link, frame.sequence );
+            printf("\t\t\t\t\tWRONG SEQUENCE NUMBER, DROPPED.\n\t\t\t\t\tEXPECTING: %d GOT: %d\n", frame_expected[link-1], frame.sequence);
         }
     }
     else if (frame.kind == ACK)
@@ -310,8 +326,9 @@ void datalink_up_to_network_ack(Frame frame, int link)
     printf("\n\t\t\t\t\tACK RECEIVED\n"
            "\t\t\t\t\tDEST:    %s\n"
            "\t\t\t\t\tIN LINK: %d\n"
-           "\t\t\t\t\tSEQ NO:  %d\n",
-           nodes[nodeinfo.nodenumber], link, frame.sequence);
+           "\t\t\t\t\tSEQ NO:  %d\n"
+           "\t\t\t\t\tWINDOW SIZE: %d\n",
+           nodes[nodeinfo.nodenumber], link, frame.sequence, num_in_window[link-1] -1);
 
     if (frame.sequence != ack_expected[link-1])
     {
@@ -326,13 +343,14 @@ void datalink_up_to_network_ack(Frame frame, int link)
         CNET_stop_timer(timers[link - 1][ack_expected[link - 1]]);
         increment(&ack_expected[link - 1]); // increment the lower bound of the window
         num_in_window[link - 1] -= 1;
+
     }
 
     //While there is space in the window and there are frames in the buffer to
     //be sent send these frames
     while (num_in_window[link - 1] < WINDOW_SIZE && num_in_buffer[link - 1] > 0)
     {
-        printf("\t\t\t\t\tSENDING FROM BUFFER\n");
+        printf("\n\t\t\t\t\tFORWARDING FROM BUFFER\n");
 
         // Remove the first frame from the buffer and update the buffer bounds
         temp_frame = buffer[link - 1][buffer_bounds[link - 1][0]];
@@ -357,6 +375,7 @@ void datalink_up_to_network_ack(Frame frame, int link)
     {
         CHECK(CNET_enable_application(ALLNODES));
     }
+
 }
 
 /**
@@ -369,14 +388,29 @@ void datalink_up_to_network_ack(Frame frame, int link)
 void network_up_to_application(Frame frame, int link)
 {
     if (frame.dest == nodeinfo.nodenumber)
-    {
+    {        printf("\n\t\t\t\t\tDATA RECEIVED\n"
+                   "\t\t\t\t\tSOURCE:  %s\n"
+                   "\t\t\t\t\tDEST:    %s\n"
+                   "\t\t\t\t\tIN LINK: %d\n"
+                   "\t\t\t\t\tSEQ NO:  %d\n",
+                   nodes[frame.source], nodes[frame.dest], link, frame.sequence);
         printf("\t\t\t\t\tUP TO APPLICATION\n");
-        datalink_down_to_physical_ack(link, frame.sequence);
+        datalink_down_to_physical_ack(frame, link, frame.sequence);
         increment(&frame_expected[link - 1]);
         CHECK(CNET_write_application((char *)&frame.data, &frame.length));
+
+
+
     }
     else
     {
+        printf("\n\t\t\t\t\tDATA RECEIVED\n"
+               "\t\t\t\t\tSOURCE:  %s\n"
+               "\t\t\t\t\tDEST:    %s\n"
+               "\t\t\t\t\tIN LINK: %d\n"
+               "\t\t\t\t\tSEQ NO:  %d\n",
+               nodes[frame.source], nodes[frame.dest], link, frame.sequence);
+
         datalink_down_to_physical_forward(frame, link);
     }
 }

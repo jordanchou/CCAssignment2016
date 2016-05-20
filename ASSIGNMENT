@@ -1,21 +1,20 @@
 compile			= "sliding_window.c"
 
-
 // LINK ATTRIBUTES -------------------------------------------------------------
 
 bandwidth           = 99999999Mbps,
 messagerate         = 1000ms,
-propagationdelay    = 100ms,
+propagationdelay    = 1000ms,
 probframecorrupt    = 5,
 probframeloss       = 5,
-mapcolour = "grey",
+mapcolour = "#ffcc00",
 // NODE ATTRIBUTES -------------------------------------------------------------
 
 host Australia
 {
     x=380, y=170
     winx=0, winy=500
-    outputfile = "Australia.log"
+    outputfile = "logs/Australia.log"
     link to Fiji {}
     link to NewZealand {}
     link to Indonesia {}
@@ -24,21 +23,21 @@ host Australia
     host Fiji
     {
         winx=500, winy=0
-        outputfile = "Fiji.log"
+        outputfile = "logs/Fiji.log"
         north east of Australia
     }
 
     host NewZealand
     {
         winx=900, winy=0
-        outputfile = "NewZealand.log"
+        outputfile = "logs/NewZealand.log"
         south east of australia
     }
 
 host Indonesia
 {
     winx=1300, winy=0
-    outputfile = "Indonesia.log"
+    outputfile = "logs/Indonesia.log"
     west west of Australia
     link to Singapore {}
     link to Malaysia {}
@@ -48,7 +47,7 @@ host Indonesia
     host Singapore
     {
         winx=500, winy=500
-        outputfile = "Singapore.log"
+        outputfile = "logs/Singapore.log"
         south west west west of Australia
         link to Malaysia {}
     }
@@ -56,14 +55,14 @@ host Indonesia
     host Malaysia
     {
         winx=900, winy=1000
-        outputfile = "Malyasia.log"
+        outputfile = "logs/Malyasia.log"
         north west west west of Australia
     }
 
     host Brunei
     {
         winx=1500, winy=500
-        outputfile = "Brunei.log"
+        outputfile = "logs/Brunei.log"
         north of Indonesia
     }
 
