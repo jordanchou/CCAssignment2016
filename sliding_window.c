@@ -171,9 +171,9 @@ void datalink_down_to_physical_forward(Frame frame, int link)
         printf("\n\t\t\t\t\tFORWARDING FRAME\n\t\t\t\t\tVIA LINK: %d\n", out_link);
 
         //Transmit the acknowledgement for the received frame
-        datalink_down_to_physical_ack(frame, link, frame.sequence);
+        datalink_down_to_physical_ack(frame.source, link, frame.sequence);
 
-        //increment the bottom of the window 
+        //increment the bottom of the window
         increment(&frame_expected[link - 1]);
 
         //Set the new sequence number of the frame and add it to window
@@ -193,7 +193,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
             printf("\t\t\t\t\tADDED TO STORE-FORWARD BUFFER\n");
 
             // Transmit an acknowledgement for the received frame
-            datalink_down_to_physical_ack(frame, link, frame.sequence);
+            datalink_down_to_physical_ack(frame.source, link, frame.sequence);
             // increment the bottom of the window sincremente the frame has been received
             // correctly
             increment(&frame_expected[link - 1]);
@@ -225,7 +225,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
  * @param link     [description]
  * @param sequence [description]
  */
-void datalink_down_to_physical_ack(Frame in_frame, int link, int sequence)
+void datalink_down_to_physical_ack(int dest, int link, int sequence)
 {
     Frame frame;
 
@@ -233,8 +233,7 @@ void datalink_down_to_physical_ack(Frame in_frame, int link, int sequence)
     frame.kind = ACK;
     frame.length = 0;
     frame.sequence = sequence;
-    frame.dest = in_frame.dest;
-
+    frame.dest =dest;
     datalink_down_to_physical_transmit(frame, link);
 }
 
@@ -290,7 +289,7 @@ void datalink_up_to_network(Frame frame, int link, int length)
         else if (frame.sequence == (frame_expected[link-1] + WINDOW_SIZE) % (WINDOW_SIZE + 1))
         {
             printf("\t\t\t\t\tFRAME ALREADY RECEIVED: RE-TRANSMIT ACK\n");
-            datalink_down_to_physical_ack(frame, link, frame.sequence);
+            datalink_down_to_physical_ack(frame.source, link, frame.sequence);
         }
         else
         {
@@ -395,7 +394,7 @@ void network_up_to_application(Frame frame, int link)
                    "\t\t\t\t\tSEQ NO:  %d\n",
                    nodes[frame.source], nodes[frame.dest], link, frame.sequence);
         printf("\t\t\t\t\tUP TO APPLICATION\n");
-        datalink_down_to_physical_ack(frame, link, frame.sequence);
+        datalink_down_to_physical_ack(frame.source, link, frame.sequence);
         increment(&frame_expected[link - 1]);
         CHECK(CNET_write_application((char *)&frame.data, &frame.length));
 
