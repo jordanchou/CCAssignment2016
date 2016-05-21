@@ -1,5 +1,5 @@
 TOPOLOGY = ASSIGNMENT
 
 run :
-	rm *.o
+	rm sliding_window.o
 	cnet -O $(TOPOLOGY)
