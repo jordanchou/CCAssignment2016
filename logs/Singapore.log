@@ -6,6 +6,58 @@ THROUGH LINK: 2
 SEQUENCE: 0
 WINDOW SIZE: 1
 
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+
 DATA TRANSMITTED
 SOURCE: Singapore
 DEST: New Zealand
@@ -13,9 +65,4211 @@ THROUGH LINK: 1
 SEQUENCE: 0
 WINDOW SIZE: 1
 
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 0
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 0 GOT: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 1 GOT: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 2 GOT: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 0 GOT: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 0 GOT: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 1 GOT: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
 DATA TRANSMITTED
 SOURCE: Singapore
 DEST: Fiji
 THROUGH LINK: 1
 SEQUENCE: 1
 WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 0 GOT: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					RESENDING FRAMES UP TO 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+					RESENDING FRAMES UP TO 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 1 GOT: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					RESENDING FRAMES UP TO 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					RESENDING FRAMES UP TO 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Malaysia
+SEQ NO:   2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Singapore
+					IN LINK: 2
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 0
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 3 GOT: 1
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 1 GOT: 2
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+					ACK RECEIVED
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Malaysia
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 2
