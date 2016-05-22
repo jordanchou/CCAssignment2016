@@ -1,177 +1,20 @@
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Indonesia
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 0
 WINDOW SIZE: 1
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Indonesia
+DEST: New Zealand
 THROUGH LINK: 1
 SEQUENCE: 1
 WINDOW SIZE: 2
 
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					SOURCE:  Indonesia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					ACK RECEIVED
-					SOURCE:  Indonesia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
 					ACK RECEIVED
 					SOURCE:  Australia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					ACK RECEIVED
-					SOURCE:  Indonesia
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  0
@@ -179,22 +22,13 @@ SEQUENCE: 3
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Australia
+DEST: New Zealand
 THROUGH LINK: 1
 SEQUENCE: 2
 WINDOW SIZE: 2
 
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
 					DATA RECEIVED
-					SOURCE:  Singapore
+					SOURCE:  Australia
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  0
@@ -202,12 +36,18 @@ Disabling application for link 1
 
 ACK TRANSMITTED
 SOURCE: Brunei
-DEST: Singapore
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 0
 
-					FRAME RECEIVED
-					BAD CHECKSUM
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
 
 					DATA RECEIVED
 					SOURCE:  Malaysia
@@ -222,20 +62,8 @@ DEST: Malaysia
 THROUGH LINK: 1
 SEQUENCE: 1
 
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Indonesia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
 					DATA RECEIVED
-					SOURCE:  Australia
+					SOURCE:  Malaysia
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  2
@@ -243,7 +71,7 @@ WINDOW SIZE: 3
 
 ACK TRANSMITTED
 SOURCE: Brunei
-DEST: Australia
+DEST: Malaysia
 THROUGH LINK: 1
 SEQUENCE: 2
 
@@ -259,6 +87,19 @@ SOURCE: Brunei
 DEST: Malaysia
 THROUGH LINK: 1
 SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
 
 TIMEOUT
 SOURCE:   Brunei
@@ -269,23 +110,114 @@ DATA TRANSMITTED
 SOURCE: Brunei
 DEST: Australia
 THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
 SEQUENCE: 2
 WINDOW SIZE: 3
 
 TIMEOUT
 SOURCE:   Brunei
-DEST:     Malaysia
+DEST:     New Zealand
 SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					ACK RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 3
 WINDOW SIZE: 3
 
+TIMEOUT
+SOURCE:   Brunei
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
 					DATA RECEIVED
-					SOURCE:  Singapore
+					SOURCE:  Indonesia
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  0
@@ -293,35 +225,52 @@ WINDOW SIZE: 3
 
 ACK TRANSMITTED
 SOURCE: Brunei
-DEST: Singapore
+DEST: Indonesia
 THROUGH LINK: 1
 SEQUENCE: 0
 
 					ACK RECEIVED
-					SOURCE:  Indonesia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					SOURCE:  Australia
+					SOURCE:  New Zealand
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  2
 					WINDOW SIZE: 2
 
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
 					DATA RECEIVED
-					SOURCE:  Singapore
+					SOURCE:  Australia
 					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  1
@@ -329,52 +278,271 @@ Disabling application for link 1
 
 ACK TRANSMITTED
 SOURCE: Brunei
-DEST: Singapore
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 1
 
-DATA TRANSMITTED
+					DATA RECEIVED
+					SOURCE:  Indonesia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
 SOURCE: Brunei
 DEST: Indonesia
 THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
+SEQUENCE: 2
 
-Disabling application for link 1
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Brunei
 					IN LINK: 1
-					SEQ NO:  2
+					SEQ NO:  0
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Brunei
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 2
+SEQUENCE: 0
 
 TIMEOUT
 SOURCE:   Brunei
-DEST:     Malaysia
+DEST:     New Zealand
 SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 3
 WINDOW SIZE: 3
 
+					ACK RECEIVED
+					SOURCE:  Australia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
 TIMEOUT
 SOURCE:   Brunei
-DEST:     Malaysia
+DEST:     New Zealand
 SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Brunei
-DEST: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
 THROUGH LINK: 1
 SEQUENCE: 0
 WINDOW SIZE: 3
+					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 2
+					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+TIMEOUT
+SOURCE:   Brunei
+DEST:     Fiji
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Brunei
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					ACK RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
