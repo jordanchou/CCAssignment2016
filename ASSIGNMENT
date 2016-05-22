@@ -1,4 +1,4 @@
-compile			= "sliding_window.c"
+compile			= "assignment.c"
 
 // LINK ATTRIBUTES -------------------------------------------------------------
 
