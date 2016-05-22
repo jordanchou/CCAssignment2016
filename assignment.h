@@ -50,7 +50,7 @@ void datalink_up_to_network(Frame frame, int link, int length);
 void datalink_down_to_physical_transmit(Frame frame, int link);
 void physical_up_to_datalink(CnetEvent ev, CnetTimerID, CnetData data);
 void set_timer(Frame frame, int link, int sequence);
-void datalink_down_to_physical_ack(int dest, int link, int sequence);
+void datalink_down_to_physical_ack(int source, int dest, int link, int sequence);
 void increment(int* num);
 void datalink_down_to_physical_forward(Frame frame, int link);
 void datalink_up_to_network_ack(Frame frame, int link);

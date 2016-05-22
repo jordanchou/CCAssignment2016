@@ -1,46 +1,26 @@
 
 DATA TRANSMITTED
 SOURCE: Indonesia
-DEST: Australia
+DEST: Fiji
 THROUGH LINK: 1
 SEQUENCE: 0
 WINDOW SIZE: 1
 
 DATA TRANSMITTED
 SOURCE: Indonesia
-DEST: Australia
+DEST: Fiji
 THROUGH LINK: 1
 SEQUENCE: 1
 WINDOW SIZE: 2
 
 					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
+					SOURCE:  Malaysia
+					DEST:    Brunei
+					IN LINK: 3
 					SEQ NO:  0
 
 					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  0
-					UP TO APPLICATION
+					VIA LINK: 4
 
 ACK TRANSMITTED
 SOURCE: Indonesia
@@ -49,16 +29,16 @@ THROUGH LINK: 3
 SEQUENCE: 0
 
 DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 4
+SOURCE: Malaysia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 0
+WINDOW SIZE: 1
 
 					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
+					SOURCE:  Malaysia
+					DEST:    Fiji
+					IN LINK: 3
 					SEQ NO:  1
 
 					FORWARDING FRAME
@@ -66,53 +46,40 @@ WINDOW SIZE: 4
 
 ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
+DEST: Malaysia
+THROUGH LINK: 3
 SEQUENCE: 1
 
 DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
+SOURCE: Malaysia
+DEST: Fiji
 THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 5
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+Disabling application for link 1
 
 					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
 					SEQ NO:  0
-
-					FORWARDING FRAME
-					VIA LINK: 4
+					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
 DEST: Brunei
 THROUGH LINK: 4
 SEQUENCE: 0
-WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 4
 
 					DATA RECEIVED
 					SOURCE:  Singapore
-					DEST:    New Zealand
+					DEST:    Brunei
 					IN LINK: 2
 					SEQ NO:  0
 
 					FORWARDING FRAME
-					VIA LINK: 1
+					VIA LINK: 4
 
 ACK TRANSMITTED
 SOURCE: Indonesia
@@ -122,3338 +89,150 @@ SEQUENCE: 0
 
 DATA TRANSMITTED
 SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  2
-
-					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  1
-
-					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  3
-
-					FORWARDING FRAME
-					VIA LINK: 3
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Australia
-DEST: Malaysia
-THROUGH LINK: 3
 SEQUENCE: 1
 WINDOW SIZE: 2
 
 					DATA RECEIVED
 					SOURCE:  Malaysia
-					DEST:    Australia
+					DEST:    New Zealand
 					IN LINK: 3
 					SEQ NO:  2
-
-					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  3
-
-					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  4
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  0
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  5
-
-					FORWARDING FRAME
-					VIA LINK: 1
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 5
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  3
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  6
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Australia
-					IN LINK: 3
-					SEQ NO:  4
 					ADDED TO STORE-FORWARD BUFFER
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: Malaysia
 THROUGH LINK: 3
-SEQUENCE: 4
+SEQUENCE: 2
 
 Disabling application for link 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  1
-					WINDOW SIZE: 0
 
 					DATA RECEIVED
 					SOURCE:  Brunei
-					DEST:    Fiji
+					DEST:    Indonesia
 					IN LINK: 4
-					SEQ NO:  7
-					ADDED TO STORE-FORWARD BUFFER
+					SEQ NO:  1
+					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 7
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  4
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-
-DATA TRANSMITTED
-SOURCE: Australia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  5
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 5
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 4
+SEQUENCE: 1
 
 					DATA RECEIVED
 					SOURCE:  Singapore
 					DEST:    New Zealand
 					IN LINK: 2
-					SEQ NO:  2
+					SEQ NO:  1
 					ADDED TO STORE-FORWARD BUFFER
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: Singapore
 THROUGH LINK: 2
-SEQUENCE: 2
+SEQUENCE: 1
 
 Disabling application for link 1
 
 					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Singapore
+					IN LINK: 1
+					SEQ NO:  0
+
+					FORWARDING FRAME
+					VIA LINK: 2
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Australia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					ACK RECEIVED
 					SOURCE:  Fiji
-					DEST:    Malaysia
+					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  5
-
-					FORWARDING FRAME
-					VIA LINK: 3
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 5
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 2
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 3
-WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Australia
-					IN LINK: 3
-					SEQ NO:  6
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 6
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  8
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  1
-					WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  3
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  7
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 7
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
 					SEQ NO:  0
-					WINDOW SIZE: 3
+					WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
-					DEST:    Malaysia
+					DEST:    Brunei
 					IN LINK: 1
-					SEQ NO:  6
+					SEQ NO:  1
 
 					FORWARDING FRAME
-					VIA LINK: 3
+					VIA LINK: 4
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 6
+SEQUENCE: 1
 
 DATA TRANSMITTED
 SOURCE: New Zealand
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  8
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 8
-
-DATA TRANSMITTED
-SOURCE: Malaysia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  4
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  4
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  5
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Australia
-					IN LINK: 3
-					SEQ NO:  9
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 9
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 7
-WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 8
-WINDOW SIZE: 5
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  4
-					WINDOW SIZE: 4
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  10
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 10
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  5
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 9
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  1
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 8
-WINDOW SIZE: 3
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 4
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 0
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					WINDOW SIZE: 4
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  6
-					WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  2
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 5
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  5
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  3
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  6
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  8
-					WINDOW SIZE: 1
-
-TIMEOUT
-SOURCE:   New Zealand
-DEST:     Malaysia
-SEQ NO:   3
-
-DATA TRANSMITTED
-SOURCE: New Zealand
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 2
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  7
-
-					FORWARDING FRAME
-					VIA LINK: 2
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 7
-
-DATA TRANSMITTED
-SOURCE: New Zealand
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 10
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  9
-					WINDOW SIZE: 1
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 4
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  6
-					WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  4
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 4
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  7
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 7
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  5
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 5
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-WINDOW SIZE: 5
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  6
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 6
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  3
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 5
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  7
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 8
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  10
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 4
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 2
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  8
-
-					FORWARDING FRAME
-					VIA LINK: 2
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 8
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  9
-
-					FORWARDING FRAME
-					VIA LINK: 2
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-
-DATA TRANSMITTED
-SOURCE: Australia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
 SEQUENCE: 2
 WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 7
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 5
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 3
-WINDOW SIZE: 4
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 8
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  9
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 9
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-WINDOW SIZE: 5
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  4
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  10
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 10
-
-DATA TRANSMITTED
-SOURCE: Australia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 6
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  10
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 10
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 7
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  0
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 7
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 9
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  0
-					WINDOW SIZE: 4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  1
-					WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  2
-					WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 4
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  8
-					WINDOW SIZE: 6
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  1
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 1
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  2
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  4
-					WINDOW SIZE: 1
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 5
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  9
-					WINDOW SIZE: 9
-
-					RESENDING FRAMES UP TO 8
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 3
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-WINDOW SIZE: 6
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					WINDOW SIZE: 0
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  9
-					WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 7
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 5
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  10
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  9
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  10
-					WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  7
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 7
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  0
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 5
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  0
-					WINDOW SIZE: 4
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  6
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-WINDOW SIZE: 6
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 9
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 8
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 10
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 8
-
-TIMEOUT
-SOURCE:   Australia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Australia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 8
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  2
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Singapore
-					IN LINK: 1
-					SEQ NO:  1
-
-					FORWARDING FRAME
-					VIA LINK: 2
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 9
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 8
-WINDOW SIZE: 8
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 6
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  8
-					WINDOW SIZE: 1
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 6
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 7
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 3
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  1
-					WINDOW SIZE: 7
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  2
-					WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 4
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  9
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 2
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 4
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  8
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 8
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 3
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 9
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 4
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 7
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  0
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 8
-
-TIMEOUT
-SOURCE:   Brunei
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Brunei
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  2
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 2
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  1
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 9
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  3
-					WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  9
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 9
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 9
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 9
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 7
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 5
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 8
-WINDOW SIZE: 9
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 10
 
 Disabling application for link 4
 
 					DATA RECEIVED
-					SOURCE:  Brunei
+					SOURCE:  Singapore
 					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 1
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
+					IN LINK: 2
 					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 2
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 9
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 10
-WINDOW SIZE: 1
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 10 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 4
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  10
 					ADDED TO STORE-FORWARD BUFFER
 
 ACK TRANSMITTED
 SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 2
+
+Disabling application for link 1
+
+DATA TRANSMITTED
+SOURCE: Indonesia
 DEST: Malaysia
 THROUGH LINK: 3
-SEQUENCE: 10
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  2
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
 
 Disabling application for link 4
 
@@ -3461,279 +240,108 @@ DATA TRANSMITTED
 SOURCE: Indonesia
 DEST: Singapore
 THROUGH LINK: 2
-SEQUENCE: 0
+SEQUENCE: 1
 WINDOW SIZE: 2
 
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 4
-
 					ACK RECEIVED
+					SOURCE:  Fiji
 					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  4
-					WINDOW SIZE: 9
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
 
 					FORWARDING FROM BUFFER
 
 DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 3
+SOURCE: Singapore
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
 
 					DATA RECEIVED
 					SOURCE:  Brunei
 					DEST:    Australia
 					IN LINK: 4
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
 					SEQ NO:  2
 					ADDED TO STORE-FORWARD BUFFER
 
 ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
+DEST: Brunei
+THROUGH LINK: 4
 SEQUENCE: 2
 
 Disabling application for link 1
 
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  0
+					WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
 
 DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
+SOURCE: Australia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 3
+WINDOW SIZE: 3
 
 					ACK RECEIVED
+					SOURCE:  Fiji
 					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 9
+					SEQ NO:  2
+					WINDOW SIZE: 2
 
 					FORWARDING FROM BUFFER
 
 DATA TRANSMITTED
 SOURCE: Singapore
-DEST: New Zealand
+DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 2
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-					RESENDING FRAMES UP TO 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
 SEQUENCE: 1
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 7
+WINDOW SIZE: 3
 
 					ACK RECEIVED
+					SOURCE:  Brunei
 					DEST:    Indonesia
 					IN LINK: 4
-					SEQ NO:  5
-					WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 5 GOT: 8
-
-					FRAME RECEIVED
-					BAD CHECKSUM
+					SEQ NO:  1
+					WINDOW SIZE: 2
 
 					DATA RECEIVED
 					SOURCE:  Malaysia
-					DEST:    New Zealand
+					DEST:    Brunei
 					IN LINK: 3
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 9
+					SEQ NO:  3
 
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 9
+					FORWARDING FRAME
+					VIA LINK: 4
 
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 5 GOT: 6
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
 
 DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
+SOURCE: Malaysia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 4
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Malaysia
 					IN LINK: 1
-					SEQ NO:  5
+					SEQ NO:  3
 
 					FORWARDING FRAME
 					VIA LINK: 3
@@ -3742,172 +350,141 @@ ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 5
+SEQUENCE: 3
 
 DATA TRANSMITTED
 SOURCE: New Zealand
 DEST: Malaysia
 THROUGH LINK: 3
-SEQUENCE: 5
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 7
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
 SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 6
+WINDOW SIZE: 2
 
 					ACK RECEIVED
+					SOURCE:  New Zealand
 					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  4
-					WINDOW SIZE: 9
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Indonesia
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Brunei
+					IN LINK: 3
+					SEQ NO:  0
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 0
+
+Disabling application for link 4
+
+DATA TRANSMITTED
+SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  2
+					WINDOW SIZE: 2
 
 					FORWARDING FROM BUFFER
 
 DATA TRANSMITTED
 SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 10
+SEQUENCE: 1
+WINDOW SIZE: 3
 
 					DATA RECEIVED
 					SOURCE:  Fiji
-					DEST:    Indonesia
+					DEST:    Singapore
 					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 2
+					SEQ NO:  0
+
+					FORWARDING FRAME
+					VIA LINK: 2
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 2
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  0
+					WINDOW SIZE: 1
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Malaysia
 					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
 					SEQ NO:  1
-					ADDED TO STORE-FORWARD BUFFER
+
+					FORWARDING FRAME
+					VIA LINK: 3
 
 ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
+DEST: New Zealand
+THROUGH LINK: 1
 SEQUENCE: 1
 
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
+DATA TRANSMITTED
+SOURCE: New Zealand
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 2
+WINDOW SIZE: 2
 
 DATA TRANSMITTED
 SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-WINDOW SIZE: 9
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
+WINDOW SIZE: 3
 
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
+Disabling application for link 3
 
 					DATA RECEIVED
 					SOURCE:  Singapore
-					DEST:    New Zealand
+					DEST:    Fiji
 					IN LINK: 2
 					SEQ NO:  3
 					ADDED TO STORE-FORWARD BUFFER
@@ -3921,151 +498,393 @@ SEQUENCE: 3
 Disabling application for link 1
 
 					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Indonesia
+					IN LINK: 2
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					SOURCE:  Brunei
 					DEST:    Indonesia
 					IN LINK: 4
-					SEQ NO:  6
-					WINDOW SIZE: 8
+					SEQ NO:  3
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 1
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Fiji
+					IN LINK: 4
+					SEQ NO:  3
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 3
+
+Disabling application for link 1
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  1
+					WINDOW SIZE: 2
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
-					DEST:    Indonesia
+					DEST:    Brunei
 					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 0
+					SEQ NO:  2
 
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: New Zealand
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Brunei
+					IN LINK: 3
+					SEQ NO:  2
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 2
 
 DATA TRANSMITTED
 SOURCE: Malaysia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 8
+SEQUENCE: 3
+WINDOW SIZE: 3
 
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
+Disabling application for link 4
 
 					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Australia
+					IN LINK: 2
+					SEQ NO:  0
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 0
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Malaysia
+					IN LINK: 1
+					SEQ NO:  3
+
+					FORWARDING FRAME
+					VIA LINK: 3
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 3
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 0
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
 					SOURCE:  Malaysia
-					DEST:    Fiji
+					DEST:    Indonesia
 					IN LINK: 3
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 6
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Brunei
+					IN LINK: 2
+					SEQ NO:  1
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 4
+
+					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Indonesia
+					IN LINK: 2
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Indonesia
+					IN LINK: 2
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Malaysia
+					IN LINK: 1
+					SEQ NO:  0
+
+					FORWARDING FRAME
+					VIA LINK: 3
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Australia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 1
 
 TIMEOUT
-SOURCE:   Malaysia
+SOURCE:   Singapore
 DEST:     New Zealand
 SEQ NO:   1
 
 DATA TRANSMITTED
-SOURCE: Malaysia
+SOURCE: Singapore
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 8
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 8
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 8
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 3
+SEQUENCE: 0
 WINDOW SIZE: 3
 
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-WINDOW SIZE: 4
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  2
+					WINDOW SIZE: 2
 
 					DATA RECEIVED
 					SOURCE:  Malaysia
-					DEST:    Brunei
+					DEST:    New Zealand
 					IN LINK: 3
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 4
+					SEQ NO:  3
+					ADDED TO STORE-FORWARD BUFFER
 
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 0
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
+
+Disabling application for link 1
 
 					ACK RECEIVED
+					SOURCE:  Brunei
 					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  1
-					WINDOW SIZE: 3
+					IN LINK: 4
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  0
+					WINDOW SIZE: 1
 
 					DATA RECEIVED
 					SOURCE:  Brunei
 					DEST:    Australia
 					IN LINK: 4
-					SEQ NO:  10
+					SEQ NO:  2
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Malaysia
+					IN LINK: 1
+					SEQ NO:  1
+
+					FORWARDING FRAME
+					VIA LINK: 3
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Australia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Malaysia
+					IN LINK: 4
+					SEQ NO:  3
 					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 10
+					EXPECTING: 2 GOT: 3
 
 					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  0
+					WINDOW SIZE: 0
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Malaysia
+					IN LINK: 1
+					SEQ NO:  2
+
+					FORWARDING FRAME
+					VIA LINK: 3
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Australia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
+WINDOW SIZE: 2
+
+TIMEOUT
+SOURCE:   Singapore
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					SOURCE:  New Zealand
 					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  5
-					WINDOW SIZE: 9
+					SEQ NO:  0
+					WINDOW SIZE: 2
 
 					FORWARDING FROM BUFFER
 
@@ -4073,34 +892,295 @@ DATA TRANSMITTED
 SOURCE: Singapore
 DEST: Fiji
 THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  5
-					WINDOW SIZE: 0
+SEQUENCE: 3
+WINDOW SIZE: 3
 
 					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 4
+					SOURCE:  Malaysia
+					DEST:    New Zealand
+					IN LINK: 3
+					SEQ NO:  0
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 0
+
+Disabling application for link 1
 
 TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
+SOURCE:   Brunei
+DEST:     Australia
+SEQ NO:   1
 
 DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Brunei
+					IN LINK: 3
+					SEQ NO:  1
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 1
+
+DATA TRANSMITTED
+SOURCE: Malaysia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 1
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Brunei
+					IN LINK: 1
+					SEQ NO:  3
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Australia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Brunei
+					IN LINK: 3
+					SEQ NO:  2
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Malaysia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 3
+WINDOW SIZE: 3
+
+Disabling application for link 4
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  2
+					WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Indonesia
+					IN LINK: 3
+					SEQ NO:  3
+					WINDOW SIZE: 0
+
+					ACK RECEIVED
+					SOURCE:  Australia
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Brunei
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Fiji
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Fiji
+THROUGH LINK: 1
+SEQUENCE: 0
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  1
+					WINDOW SIZE: 2
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					SOURCE:  Australia
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Fiji
+					IN LINK: 3
+					SEQ NO:  3
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Brunei
+					IN LINK: 2
+					SEQ NO:  2
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 2
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 0
+WINDOW SIZE: 3
+
+Disabling application for link 4
+					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
+
+ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 8
-WINDOW SIZE: 8
+SEQUENCE: 1
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  2
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Australia
+					IN LINK: 4
+					SEQ NO:  2
+					ADDED TO STORE-FORWARD BUFFER
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 2
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Brunei
+					IN LINK: 2
+					SEQ NO:  3
+
+					FORWARDING FRAME
+					VIA LINK: 4
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 3
+
+DATA TRANSMITTED
+SOURCE: Singapore
+DEST: Brunei
+THROUGH LINK: 4
+SEQUENCE: 1
+WINDOW SIZE: 2
+
+					FRAME RECEIVED
+					BAD CHECKSUM
 
 TIMEOUT
 SOURCE:   Singapore
@@ -4111,521 +1191,77 @@ DATA TRANSMITTED
 SOURCE: Singapore
 DEST: Fiji
 THROUGH LINK: 1
-SEQUENCE: 7
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 4 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  4
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  0
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 0
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  5
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 3
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 2
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  6
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  2
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 9
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
 SEQUENCE: 3
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 7
+WINDOW SIZE: 3
 
 					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  7
-					WINDOW SIZE: 9
-
-					FORWARDING FROM BUFFER
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 9
-
-					DATA RECEIVED
 					SOURCE:  Brunei
 					DEST:    Indonesia
 					IN LINK: 4
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 7
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WINDOW SIZE: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  8
-					WINDOW SIZE: 7
+					SEQ NO:  0
+					WINDOW SIZE: 1
 
 					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 7
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 1 GOT: 5
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 6
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 1
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
+					SOURCE:  Brunei
 					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
 					IN LINK: 4
-					SEQ NO:  9
+					SEQ NO:  0
 					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 9
+					EXPECTING: 3 GOT: 0
 
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
 					SEQ NO:  1
-					ADDED TO STORE-FORWARD BUFFER
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 1
-
-Disabling application for link 1
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-WINDOW SIZE: 4
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 6
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
-WINDOW SIZE: 5
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
+					WINDOW SIZE: 0
 
 					DATA RECEIVED
 					SOURCE:  Australia
 					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  6
+					SEQ NO:  3
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 6
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 9
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 2
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 6 GOT: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 6
+SEQUENCE: 3
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 10
-
-					DATA RECEIVED
-					SOURCE:  Singapore
 					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  6
+					IN LINK: 1
+					SEQ NO:  0
 
 					FORWARDING FRAME
 					VIA LINK: 4
 
 ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
 
 DATA TRANSMITTED
-SOURCE: Singapore
+SOURCE: New Zealand
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 8
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+					DATA RECEIVED
+					SOURCE:  Malaysia
+					DEST:    Fiji
+					IN LINK: 3
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 0 GOT: 1
 
 					DATA RECEIVED
 					SOURCE:  Brunei
-					DEST:    Malaysia
+					DEST:    Indonesia
 					IN LINK: 4
 					SEQ NO:  1
 					WRONG SEQUENCE NUMBER, DROPPED.
@@ -4633,617 +1269,37 @@ WINDOW SIZE: 8
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 4
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 8
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 2
-WINDOW SIZE: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 10
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  6
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 8
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  10
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 0
-WINDOW SIZE: 8
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 1
-WINDOW SIZE: 8
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 7
-WINDOW SIZE: 6
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 3
-WINDOW SIZE: 6
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 0
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 8
-WINDOW SIZE: 7
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Australia
-					IN LINK: 2
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 3
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Fiji
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 4
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  9
-					WINDOW SIZE: 7
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 9
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  7
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 7
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 0
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 10
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 10
-WINDOW SIZE: 9
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-Disabling application for link 2
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
+					DEST:    Singapore
 					IN LINK: 1
 					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 7 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  7
 
 					FORWARDING FRAME
-					VIA LINK: 4
+					VIA LINK: 2
 
 ACK TRANSMITTED
 SOURCE: Indonesia
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 7
+SEQUENCE: 1
 
 DATA TRANSMITTED
 SOURCE: New Zealand
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 6
-WINDOW SIZE: 8
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 7
+DEST: Singapore
+THROUGH LINK: 2
+SEQUENCE: 0
 WINDOW SIZE: 1
 
 TIMEOUT
-SOURCE:   Singapore
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 4
-WINDOW SIZE: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  2
-					WINDOW SIZE: 9
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Malaysia
-					IN LINK: 1
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 9
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 10
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 9
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  3
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Singapore
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 5
-WINDOW SIZE: 10
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  2
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  3
-					WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    New Zealand
-					IN LINK: 3
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 9
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Indonesia
-					IN LINK: 4
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 7
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 2
-WINDOW SIZE: 8
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 6
-WINDOW SIZE: 8
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Indonesia
-					IN LINK: 2
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Fiji
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  8
-
-					FORWARDING FRAME
-					VIA LINK: 4
-
-ACK TRANSMITTED
-SOURCE: Indonesia
-DEST: Fiji
-THROUGH LINK: 1
-SEQUENCE: 8
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 7
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-TIMEOUT
-SOURCE:   Singapore
+SOURCE:   Brunei
 DEST:     Fiji
 SEQ NO:   1
 
 DATA TRANSMITTED
-SOURCE: Singapore
+SOURCE: Brunei
 DEST: Fiji
 THROUGH LINK: 1
-SEQUENCE: 6
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Malaysia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 3
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Australia
-					IN LINK: 4
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Brunei
-					IN LINK: 2
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Brunei
-					IN LINK: 1
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  7
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 7
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  8
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 8
-
-					ACK RECEIVED
-					DEST:    Indonesia
-					IN LINK: 3
-					SEQ NO:  7
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    New Zealand
-					IN LINK: 4
-					SEQ NO:  9
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 9
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Indonesia
-					IN LINK: 1
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 4
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 5
+SEQUENCE: 0
+WINDOW SIZE: 3
 
 					DATA RECEIVED
 					SOURCE:  Singapore
@@ -5251,149 +1307,119 @@ WINDOW SIZE: 9
 					IN LINK: 2
 					SEQ NO:  2
 					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 8
-WINDOW SIZE: 1
+					EXPECTING: 0 GOT: 2
 
 TIMEOUT
-SOURCE:   Malaysia
-DEST:     New Zealand
+SOURCE:   Singapore
+DEST:     Australia
 SEQ NO:   1
 
 DATA TRANSMITTED
-SOURCE: Malaysia
-DEST: New Zealand
+SOURCE: Singapore
+DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 10
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 5
-WINDOW SIZE: 8
-
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Brunei
-SEQ NO:   4
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Brunei
-THROUGH LINK: 4
-SEQUENCE: 10
-WINDOW SIZE: 9
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Singapore
-					IN LINK: 4
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 5
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 3
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 6
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 9
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Indonesia
-DEST: Malaysia
-THROUGH LINK: 3
-SEQUENCE: 10
+SEQUENCE: 1
 WINDOW SIZE: 3
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Indonesia
 					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 0
+					SEQ NO:  2
+					UP TO APPLICATION
 
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    New Zealand
-					IN LINK: 2
-					SEQ NO:  6
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 8 GOT: 6
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Brunei
-					IN LINK: 3
-					SEQ NO:  4
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 4
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
-					DEST:    Indonesia
+					DEST:    Brunei
 					IN LINK: 1
 					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 3
 
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 2
-					SEQ NO:  8
+					FORWARDING FRAME
+					VIA LINK: 4
 
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Singapore
-DEST:     Brunei
-SEQ NO:   4
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
 
 DATA TRANSMITTED
-SOURCE: Singapore
+SOURCE: New Zealand
 DEST: Brunei
 THROUGH LINK: 4
-SEQUENCE: 5
-WINDOW SIZE: 9
+SEQUENCE: 3
+WINDOW SIZE: 2
 
-TIMEOUT
-SOURCE:   Indonesia
-DEST:     Singapore
-SEQ NO:   2
+					ACK RECEIVED
+					SOURCE:  Brunei
+					DEST:    Indonesia
+					IN LINK: 4
+					SEQ NO:  2
+					WINDOW SIZE: 1
+					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
 
-DATA TRANSMITTED
+ACK TRANSMITTED
 SOURCE: Indonesia
-DEST: Singapore
-THROUGH LINK: 2
-SEQUENCE: 4
-WINDOW SIZE: 8
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 3
+
+					ACK RECEIVED
+					SOURCE:  Singapore
+					DEST:    Indonesia
+					IN LINK: 2
+					SEQ NO:  0
+					WINDOW SIZE: 0
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Malaysia
 					IN LINK: 1
-					SEQ NO:  5
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 9 GOT: 5
+					SEQ NO:  0
+
+					FORWARDING FRAME
+					VIA LINK: 3
+
+ACK TRANSMITTED
+SOURCE: Indonesia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: New Zealand
+DEST: Malaysia
+THROUGH LINK: 3
+SEQUENCE: 0
+WINDOW SIZE: 1
+
+					ACK RECEIVED
+					SOURCE:  Fiji
+					DEST:    Indonesia
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					FORWARDING FROM BUFFER
+
+DATA TRANSMITTED
+SOURCE: Malaysia
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 3
