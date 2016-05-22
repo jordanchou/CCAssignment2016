@@ -328,17 +328,7 @@ void datalink_up_to_network_ack(Frame frame, int link)
     Frame temp_frame;
     int out_link;
 
-    printf("\n\t\t\t\t\tACK RECEIVED\n"
-           "\t\t\t\t\tDEST:    %s\n"
-           "\t\t\t\t\tIN LINK: %d\n"
-           "\t\t\t\t\tSEQ NO:  %d\n"
-           "\t\t\t\t\tWINDOW SIZE: %d\n",
-           nodes[nodeinfo.nodenumber], link, frame.sequence, num_in_window[link-1] -1);
 
-    if (frame.sequence != ack_expected[link-1])
-    {
-        printf("\n\t\t\t\t\tRESENDING FRAMES UP TO %d\n", ack_expected[link-1]);
-    }
 
     //An acknowledgement acknowledges the frame with the same sequence number
     //and all those sent before it that haven't been acknowledged.
@@ -348,8 +338,14 @@ void datalink_up_to_network_ack(Frame frame, int link)
         CNET_stop_timer(timers[link - 1][ack_expected[link - 1]]);
         increment(&ack_expected[link - 1]); // increment the lower bound of the window
         num_in_window[link - 1] -= 1;
-
     }
+
+    printf("\n\t\t\t\t\tACK RECEIVED\n"
+           "\t\t\t\t\tDEST:    %s\n"
+           "\t\t\t\t\tIN LINK: %d\n"
+           "\t\t\t\t\tSEQ NO:  %d\n"
+           "\t\t\t\t\tWINDOW SIZE: %d\n",
+           nodes[nodeinfo.nodenumber], link, frame.sequence, num_in_window[link-1]);
 
     //While there is space in the window and there are frames in the buffer to
     //be sent send these frames
