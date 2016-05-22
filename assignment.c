@@ -9,8 +9,11 @@ COMMENTS:-
 REQUIRES:-
 */
 
-#include "assignment.h"
+#include "sliding_window.h"
 
+/**
+ * Taken from Chris McDonalds example from CNET api
+ */
 void draw_frame(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
     CnetDrawFrame *df  = (CnetDrawFrame *)data;
@@ -36,10 +39,7 @@ void draw_frame(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
-*
-* @param ev    [description]
-* @param timer [description]
-* @param data  [description]
+* Starts up a node by settings functions for events
 */
 void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -70,10 +70,7 @@ void reboot_node(CnetEvent ev, CnetTimerID timer, CnetData data)
  */
 
 /**
- * [application_down_to_network description]
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
+ * Simulates the application layer passing a message to the network layer.
  */
 void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -83,14 +80,18 @@ void application_down_to_network(CnetEvent ev, CnetTimerID timer, CnetData data)
 
     //Read the data/message from the application layer
     CHECK(CNET_read_application(&(frame.dest), (char *)(&frame.data), &(frame.length)));
+
     frame.source = nodeinfo.nodenumber;//Set the source of the frame to be current
     frame.kind = DATA;//This is a data frame
     network_down_to_datalink(frame);//Pass the frame onto the network
 }
 
 /**
- * [network_down_to_datalink description]
- * @param frame [description]
+ * Simulates the passing of a message from the network layer down to the
+ * data-link layer. The function determines the link to send the message on
+ * from the routing table based on the current node and the destination of the
+ * message.
+ * @param frame the message to send on
  */
 void network_down_to_datalink(Frame frame)
 {
@@ -98,10 +99,10 @@ void network_down_to_datalink(Frame frame)
 
     //Obtain the link to send from from the routing table
     link = routing_table[nodeinfo.nodenumber][frame.dest];
-    frame.sequence = next_frame[link-1];
-    window[link-1][frame.sequence] = frame;
+    frame.sequence = next_frame[link-1];//set the sequence of the frame
+    window[link-1][frame.sequence] = frame;//add the frame to window
 
-    num_in_window[link-1] = num_in_window[link-1] + 1;
+    num_in_window[link-1] = num_in_window[link-1] + 1;//increase window size
 
     //Transmit the frame
     datalink_down_to_physical_transmit(frame, link);
@@ -122,9 +123,10 @@ void network_down_to_datalink(Frame frame)
 }
 
 /**
- * [datalink_down_to_physical description]
- * @param frame [description]
- * @param link  [description]
+ * Simulates the data-link layer passing a message to the physical layer.
+ * This function is used for transmitting messages from the data-link.
+ * @param frame the message to transmit
+ * @param link  the link to transmit on
  */
 void datalink_down_to_physical_transmit(Frame frame, int link)
 {
@@ -156,9 +158,10 @@ void datalink_down_to_physical_transmit(Frame frame, int link)
 }
 
 /**
- * [datalink_down_to_physical_forward description]
- * @param frame [description]
- * @param link  [description]
+ * Simulates the data-link layer passing a message to the physical layer.
+ * This function is used to forward messages.
+ * @param frame the message to forward
+ * @param link  the link to forward the message on
  */
 void datalink_down_to_physical_forward(Frame frame, int link)
 {
@@ -166,6 +169,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
 
     out_link = routing_table[nodeinfo.nodenumber][frame.dest];
 
+    //If there is room in the window
     if (num_in_window[out_link-1] < WINDOW_SIZE)
     {
         printf("\n\t\t\t\t\tFORWARDING FRAME\n\t\t\t\t\tVIA LINK: %d\n", out_link);
@@ -205,6 +209,7 @@ void datalink_down_to_physical_forward(Frame frame, int link)
         }
     }
 
+    //If the window is full then disable
     if (num_in_window[out_link - 1] >= WINDOW_SIZE)
     {
 
@@ -221,9 +226,10 @@ void datalink_down_to_physical_forward(Frame frame, int link)
 }
 
 /**
- * [datalink_down_to_physical_ack description]
- * @param link     [description]
- * @param sequence [description]
+ * Simulates the data-link layer passing a message to the physical layer to
+ * send. This function is used for transmitting acknowledgements.
+ * @param link     the link to send the ack on
+ * @param sequence the sequence number to ack
  */
 void datalink_down_to_physical_ack(int dest, int link, int sequence)
 {
@@ -233,7 +239,7 @@ void datalink_down_to_physical_ack(int dest, int link, int sequence)
     frame.kind = ACK;
     frame.length = 0;
     frame.sequence = sequence;
-    frame.dest =dest;
+    frame.dest = dest;
     datalink_down_to_physical_transmit(frame, link);
 }
 
@@ -243,10 +249,7 @@ void datalink_down_to_physical_ack(int dest, int link, int sequence)
  */
 
 /**
- * [physical_up_to_datalink description]
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
+ * Simulates the physical layer passing a message up to the data-link layer.
  */
 void physical_up_to_datalink(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -261,10 +264,10 @@ void physical_up_to_datalink(CnetEvent ev, CnetTimerID timer, CnetData data)
 }
 
 /**
- * [datalink_up_to_network description]
- * @param frame  [description]
- * @param link   [description]
- * @param length [description]
+ * Simulates the passing of a message from the data-link to the network layers
+ * @param frame  the message to pass
+ * @param link   the link the message came in
+ * @param length the length of the message
  */
 void datalink_up_to_network(Frame frame, int link, int length)
 {
@@ -273,6 +276,7 @@ void datalink_up_to_network(Frame frame, int link, int length)
     checksum = frame.checksum;
     frame.checksum = 0;
 
+    //Check the checksum of the frame, if it doesn't match up disacrd frame
     if (CNET_ccitt((unsigned char*)&frame, (int)length) != checksum)
     {
         printf("\n\t\t\t\t\tFRAME RECEIVED\n\t\t\t\t\tBAD CHECKSUM\n");
@@ -281,7 +285,6 @@ void datalink_up_to_network(Frame frame, int link, int length)
 
     if (frame.kind == DATA)
     {
-
         if (frame.sequence == frame_expected[link-1])
         {
             network_up_to_application(frame, link);
@@ -313,9 +316,12 @@ void datalink_up_to_network(Frame frame, int link, int length)
 }
 
 /**
- * [datalink_up_to_network_ack description]
- * @param frame [description]
- * @param link  [description]
+ * Simulates the data-link layer passing a message to the network layer.
+ * This function is used specifically for when the ndoe receives an ack.
+ * When an ack is received the sequence number of the ack is checked with the
+ * current window and the appropriate sent messages are acked.
+ * @param frame the acknowledgement frame
+ * @param link  the link the message came in on
  */
 void datalink_up_to_network_ack(Frame frame, int link)
 {
@@ -367,9 +373,9 @@ void datalink_up_to_network_ack(Frame frame, int link)
         increment(&next_frame[link - 1]);
     }
 
-    // If none of the links connected to this node have full windows then enable
-    // the application layer. If this application layer is enable then the buffer
-    // for each link is also empty
+    /*If none of the links connected to this node have full windows then enable
+      the application layer. If this application layer is enable then the buffer
+      for each link is also empty*/
     if (num_in_window[0] < WINDOW_SIZE && num_in_window[1] < WINDOW_SIZE && num_in_window[2] < WINDOW_SIZE && num_in_window[3] < WINDOW_SIZE)
     {
         CHECK(CNET_enable_application(ALLNODES));
@@ -397,9 +403,6 @@ void network_up_to_application(Frame frame, int link)
         datalink_down_to_physical_ack(frame.source, link, frame.sequence);
         increment(&frame_expected[link - 1]);
         CHECK(CNET_write_application((char *)&frame.data, &frame.length));
-
-
-
     }
     else
     {
@@ -419,10 +422,10 @@ void network_up_to_application(Frame frame, int link)
  */
 
 /**
- * [set_timer description]
- * @param frame    [description]
- * @param link     [description]
- * @param sequence [description]
+ * Sets the timers for a frame depending on the
+ * @param frame    the frame to set the timer for
+ * @param link     the link the frame has been sent on
+ * @param sequence the sequence number of the frame
  */
 void set_timer(Frame frame, int link, int sequence)
 {
@@ -430,7 +433,7 @@ void set_timer(Frame frame, int link, int sequence)
     CnetTime timeout;
 
     timeout = FRAME_SIZE(frame)*((CnetTime)8000000/linkinfo[link].bandwidth) +
-                linkinfo[link].propagationdelay;
+                linkinfo[link].propagationdelay;//from stopandwait example
 
     switch (link)
     {
@@ -453,9 +456,6 @@ void set_timer(Frame frame, int link, int sequence)
 
 /**
  * Handles timeouts on link 1 by retransmitting the frame
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
  */
 void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -478,9 +478,6 @@ void timeout_link_1(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 /**
  * Handles timeouts on link 2 by retransmitting the frame
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
  */
 void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -503,9 +500,6 @@ void timeout_link_2(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 /**
  * Handles timeouts on link 3 by retransmitting the frame
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
  */
 void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
@@ -529,9 +523,6 @@ void timeout_link_3(CnetEvent ev, CnetTimerID timer, CnetData data)
 
 /**
  * Handles timeouts on link 4 by retransmitting the frame
- * @param ev    [description]
- * @param timer [description]
- * @param data  [description]
  */
 void timeout_link_4(CnetEvent ev, CnetTimerID timer, CnetData data)
 {
