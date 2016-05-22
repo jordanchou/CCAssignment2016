@@ -6,403 +6,9 @@ THROUGH LINK: 1
 SEQUENCE: 0
 WINDOW SIZE: 1
 
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
 DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
 THROUGH LINK: 1
 SEQUENCE: 1
 WINDOW SIZE: 2
@@ -413,286 +19,378 @@ WINDOW SIZE: 2
 					SEQ NO:  0
 					WINDOW SIZE: 1
 
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
 					ACK RECEIVED
 					DEST:    Fiji
 					IN LINK: 1
 					SEQ NO:  1
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
 					WINDOW SIZE: 0
 
 					DATA RECEIVED
 					SOURCE:  New Zealand
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  3
+					SEQ NO:  0
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
 DEST: New Zealand
 THROUGH LINK: 1
+SEQUENCE: 0
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
 SEQUENCE: 3
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  2
+					WINDOW SIZE: 1
 
 DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 6
+WINDOW SIZE: 3
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 7
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 8
+WINDOW SIZE: 4
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 9
+WINDOW SIZE: 5
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  5
+					WINDOW SIZE: 4
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 5
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  6
+					WINDOW SIZE: 4
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 5
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  7
+					WINDOW SIZE: 4
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  8
+					WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 3
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  0
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					WINDOW SIZE: 1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
 SEQUENCE: 3
-WINDOW SIZE: 1
+WINDOW SIZE: 2
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 4
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					WINDOW SIZE: 3
+
+					RESENDING FRAMES UP TO 2
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 4
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  5
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 5
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  6
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 6
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  7
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 7
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 6
+WINDOW SIZE: 3
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 7
+WINDOW SIZE: 4
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 8
+WINDOW SIZE: 5
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  8
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 8
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 9
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 9
+WINDOW SIZE: 6
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 7
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
 
 DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Brunei
 THROUGH LINK: 1
 SEQUENCE: 0
-WINDOW SIZE: 2
+WINDOW SIZE: 8
 
 					DATA RECEIVED
 					SOURCE:  Australia
@@ -707,29 +405,24 @@ DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 0
 
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
 DATA TRANSMITTED
 SOURCE: Fiji
-DEST: Singapore
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 8
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
+WINDOW SIZE: 9
 
 					DATA RECEIVED
 					SOURCE:  Australia
@@ -744,109 +437,73 @@ DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 1
 
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
 
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
+DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
+SEQUENCE: 5
+WINDOW SIZE: 9
 
 DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Indonesia
 THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
+SEQUENCE: 2
+WINDOW SIZE: 10
 
 Disabling application for link 1
 
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
 					DATA RECEIVED
-					SOURCE:  New Zealand
+					SOURCE:  Australia
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  0
+					SEQ NO:  2
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
-DEST: New Zealand
+DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 0
+SEQUENCE: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					WINDOW SIZE: 9
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 10
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  5
+					WINDOW SIZE: 9
 
 TIMEOUT
 SOURCE:   Fiji
@@ -857,71 +514,54 @@ DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Indonesia
 THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
+SEQUENCE: 6
+WINDOW SIZE: 9
 
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
+DATA TRANSMITTED
 SOURCE: Fiji
 DEST: New Zealand
 THROUGH LINK: 1
-SEQUENCE: 1
+SEQUENCE: 4
+WINDOW SIZE: 10
 
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
+Disabling application for link 1
 
 					DATA RECEIVED
 					SOURCE:  Australia
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  3
+					SEQ NO:  4
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 3
+SEQUENCE: 4
 
 TIMEOUT
 SOURCE:   Fiji
-DEST:     New Zealand
+DEST:     Australia
 SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Fiji
-DEST: New Zealand
+DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
+SEQUENCE: 10
+WINDOW SIZE: 10
 
 TIMEOUT
 SOURCE:   Fiji
-DEST:     Malaysia
+DEST:     Singapore
 SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Fiji
-DEST: Malaysia
+DEST: Singapore
 THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
+SEQUENCE: 8
+WINDOW SIZE: 10
 
 TIMEOUT
 SOURCE:   Fiji
@@ -932,104 +572,74 @@ DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Indonesia
 THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
+SEQUENCE: 9
+WINDOW SIZE: 10
 
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 1
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
 
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 7
+WINDOW SIZE: 10
 
 					DATA RECEIVED
 					SOURCE:  Australia
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
+					SEQ NO:  5
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 0
+SEQUENCE: 5
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  6
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 6
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  6
+					WINDOW SIZE: 9
 
 DATA TRANSMITTED
 SOURCE: Fiji
-DEST: New Zealand
+DEST: Malaysia
 THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
+SEQUENCE: 5
+WINDOW SIZE: 10
 
 Disabling application for link 1
 
 					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
 					SOURCE:  Australia
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  2
+					SEQ NO:  7
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 2
+SEQUENCE: 7
 
 TIMEOUT
 SOURCE:   Fiji
@@ -1040,1744 +650,8 @@ DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Brunei
 THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
 SEQUENCE: 0
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Indonesia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Indonesia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					RESENDING FRAMES UP TO 0
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Indonesia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Indonesia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-					FRAME ALREADY RECEIVED: RE-TRANSMIT ACK
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					RESENDING FRAMES UP TO 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 0
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					RESENDING FRAMES UP TO 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					FRAME RECEIVED
-					BAD CHECKSUM
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Australia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Indonesia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 3
+WINDOW SIZE: 10
 
 TIMEOUT
 SOURCE:   Fiji
@@ -2789,561 +663,32 @@ SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
 SEQUENCE: 1
-WINDOW SIZE: 3
+WINDOW SIZE: 10
 
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 1
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
 
 DATA TRANSMITTED
 SOURCE: Fiji
 DEST: Indonesia
 THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 0 GOT: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
 SEQUENCE: 2
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
+WINDOW SIZE: 10
 
 					DATA RECEIVED
 					SOURCE:  Australia
 					DEST:    Fiji
 					IN LINK: 1
-					SEQ NO:  0
+					SEQ NO:  8
 					UP TO APPLICATION
 
 ACK TRANSMITTED
 SOURCE: Fiji
 DEST: Australia
 THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 0
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 2 GOT: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 0
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Brunei
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Malaysia
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 2
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Singapore
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WRONG SEQUENCE NUMBER, DROPPED.
-					EXPECTING: 3 GOT: 1
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     New Zealand
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Singapore
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Singapore
-THROUGH LINK: 1
-SEQUENCE: 1
-WINDOW SIZE: 3
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 3
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					WINDOW SIZE: 2
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 0
-WINDOW SIZE: 3
-
-Disabling application for link 1
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-TIMEOUT
-SOURCE:   Fiji
-DEST:     Brunei
-SEQ NO:   1
-
-DATA TRANSMITTED
-SOURCE: Fiji
-DEST: Brunei
-THROUGH LINK: 1
-SEQUENCE: 2
-WINDOW SIZE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  1
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 1
-
-					DATA RECEIVED
-					SOURCE:  New Zealand
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: New Zealand
-THROUGH LINK: 1
-SEQUENCE: 2
-
-					ACK RECEIVED
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  2
-					WINDOW SIZE: 2
-
-					DATA RECEIVED
-					SOURCE:  Malaysia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  3
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Malaysia
-THROUGH LINK: 1
-SEQUENCE: 3
-
-					DATA RECEIVED
-					SOURCE:  Australia
-					DEST:    Fiji
-					IN LINK: 1
-					SEQ NO:  0
-					UP TO APPLICATION
-
-ACK TRANSMITTED
-SOURCE: Fiji
-DEST: Australia
-THROUGH LINK: 1
-SEQUENCE: 0
+SEQUENCE: 8
 
 TIMEOUT
 SOURCE:   Fiji
@@ -3355,4 +700,695 @@ SOURCE: Fiji
 DEST: Brunei
 THROUGH LINK: 1
 SEQUENCE: 3
-WINDOW SIZE: 2
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Brunei
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 9
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  0
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 0
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Malaysia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 9
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 8
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  2
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 2
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 7
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 4
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  5
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 5
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 10
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  7
+					WINDOW SIZE: 9
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 6
+WINDOW SIZE: 10
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  6
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 6
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  8
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 8
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 9
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Malaysia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  0
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 0
+
+					FRAME RECEIVED
+					BAD CHECKSUM
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 9
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 8
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 2
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 10
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  8
+					WINDOW SIZE: 9
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 6
+WINDOW SIZE: 9
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 9
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 9
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 7 GOT: 3
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 1
+WINDOW SIZE: 9
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  7
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 7
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 9
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 7
+WINDOW SIZE: 10
+
+Disabling application for link 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 8 GOT: 4
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 8 GOT: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Malaysia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 8 GOT: 1
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 8 GOT: 9
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  8
+					UP TO APPLICATION
+
+ACK TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 8
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 9
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  New Zealand
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  5
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 5
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Indonesia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Indonesia
+THROUGH LINK: 1
+SEQUENCE: 2
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Singapore
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  2
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 2
+
+					ACK RECEIVED
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  9
+					WINDOW SIZE: 9
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 8
+WINDOW SIZE: 10
+
+Disabling application for link 1
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Australia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Australia
+THROUGH LINK: 1
+SEQUENCE: 10
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 3
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Singapore
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Singapore
+THROUGH LINK: 1
+SEQUENCE: 6
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  3
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 3
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  4
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 4
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Brunei
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Brunei
+THROUGH LINK: 1
+SEQUENCE: 0
+WINDOW SIZE: 10
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     New Zealand
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: New Zealand
+THROUGH LINK: 1
+SEQUENCE: 4
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  1
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 1
+
+TIMEOUT
+SOURCE:   Fiji
+DEST:     Malaysia
+SEQ NO:   1
+
+DATA TRANSMITTED
+SOURCE: Fiji
+DEST: Malaysia
+THROUGH LINK: 1
+SEQUENCE: 5
+WINDOW SIZE: 10
+
+					DATA RECEIVED
+					SOURCE:  Australia
+					DEST:    Fiji
+					IN LINK: 1
+					SEQ NO:  10
+					WRONG SEQUENCE NUMBER, DROPPED.
+					EXPECTING: 9 GOT: 10

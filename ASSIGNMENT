@@ -2,7 +2,7 @@ compile			= "sliding_window.c"
 
 // LINK ATTRIBUTES -------------------------------------------------------------
 
-bandwidth           = 99999999Mbps,
+bandwidth           = 512Kbps,
 messagerate         = 1000ms,
 propagationdelay    = 1000ms,
 probframecorrupt    = 5,
